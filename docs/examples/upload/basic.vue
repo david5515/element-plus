@@ -7,7 +7,7 @@
     :on-preview="handlePreview"
     :on-remove="handleRemove"
     :before-remove="beforeRemove"
-    :limit="3"
+    :limit="1"
     :on-exceed="handleExceed"
   >
     <el-button type="primary">Click to upload</el-button>
